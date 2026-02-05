@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f5f7;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4b9cd3;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.signup-btn {
+  background: #f2994a;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 20px;
+  padding: 60px 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1f2933, #374151);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #d1d5db;
+}
+
+/* Events */
+.events {
+  margin-top: 40px;
+}
+
+.events h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.event-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.event {
+  background: #f8fafc;
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.event h3 {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  background: #9cc3dd;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+  
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">E</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Events</a>
+      <a href="#">Contact</a>
+      <button class="signup-btn">Signup</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Upcoming Events<br>That Inspire</h1>
+    <p>Discover, connect, and grow with our curated experiences.</p>
+  </section>
+
+  <!-- Featured Events -->
+  <section class="events">
+    <h2>Featured Events</h2>
+
+    <div class="event-cards">
+      <div class="event">
+        <h3>Event 1</h3>
+        <p>Date: 10 May<br>Time: 01:30 PM</p>
+      </div>
+
+      <div class="event">
+        <h3>Event 2</h3>
+        <p>Date: 20 May<br>Time: 03:00 PM</p>
+      </div>
+
+      <div class="event">
+        <h3>Event 3</h3>
+        <p>Date: 27 May<br>Time: 01:30 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Event Co.</p>
+    <p>Privacy Policy | Terms of Service</p>
+  </footer>
+
+</body>
+</html>

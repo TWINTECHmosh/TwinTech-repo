@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #eef5fb;
+  padding: 20px;
+}
+
+
+.navbar {
+  background: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.signup-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.hero {
+  background: linear-gradient(#dbeeff, #f1f8ff);
+  margin-top: 20px;
+  padding: 60px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #555;
+}
+
+
+.courses {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.course {
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+}
+
+.course h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.blue { background: #dbeeff; }
+.green { background: #dcfce7; }
+.yellow { background: #fef3c7; }
+.purple { background: #e9d5ff; }
+.cyan { background: #cffafe; }
+.lavender { background: #ede9fe; }
+
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+  </style>
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="logo">🎓 ACADEMY</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Events</a>
+      <a href="#">Contact</a>
+      <button class="signup-btn">Signup</button>
+    </nav>
+  </header>
+
+  
+  <section class="hero">
+    <h1>LEARN SKILLS THAT MATTER</h1>
+    <p>
+      Explore a world of knowledge and unlock your potential <br>
+      with our diverse course offerings
+    </p>
+  </section>
+
+  
+  <section class="courses">
+    <div class="course blue">
+      <h3>COURSE 1</h3>
+      <p>Introduction<br>Digital Marketing</p>
+    </div>
+
+    <div class="course green">
+      <h3>COURSE 2</h3>
+      <p>Data Science<br>Fundamentals</p>
+    </div>
+
+    <div class="course yellow">
+      <h3>COURSE 3</h3>
+      <p>Creative Writing<br>Workshop</p>
+    </div>
+
+    <div class="course purple">
+      <h3>COURSE 4</h3>
+      <p>Web Development<br>Bootcamp</p>
+    </div>
+
+    <div class="course cyan">
+      <h3>COURSE 5</h3>
+      <p>Leadership &<br>Management</p>
+    </div>
+
+    <div class="course lavender">
+      <h3>COURSE 6</h3>
+      <p>Graphic Design<br>Masterclass</p>
+    </div>
+  </section>
+
+  
+  <footer>
+    © 2026 Academy. All rights reserved. <br>
+    Terms of Service | Privacy Policy
+  </footer>
+
+</body>
+</html>
